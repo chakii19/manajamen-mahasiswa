@@ -21,3 +21,6 @@ Route::get('home',function () {
     return view('utama');
 });
 
+Route::get('admin',function () {
+    return view('user');
+});

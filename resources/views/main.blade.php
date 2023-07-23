@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Selamat Datang | Mahasiswa</title>
+    <title>@yield('title')Selamat Datang | Mahasiswa</title>
     <meta name="description" content="Sufee Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-icon.png">
@@ -117,6 +117,9 @@
             </div>
 
         </header><!-- /header -->
+        @yield('breadcrumbs')
+
+        @yield('content')
 
         <div class="breadcrumbs">
             <div class="col-sm-4">

@@ -119,18 +119,9 @@
         </header><!-- /header -->
         @yield('breadcrumbs')
 
+
         @yield('content')
 
-        
-
-        <div class="content mt-3">
-
-            <div class="animated fadeIn">
-                Isi home
-            </div>
-
-        </div>
-    </div>    
 
 </body>
 </html>

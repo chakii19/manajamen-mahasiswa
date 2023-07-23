@@ -1,6 +1,8 @@
 @extends('main')
 
 @section('title','Dasboard')
+
+@section('breadcrumbs')
 <div class="breadcrumbs">
     <div class="col-sm-4">
         <div class="page-header float-left">
@@ -19,10 +21,17 @@
         </div>
     </div>
 </div>
-@section('breadcrumbs')
-    
+
+
 @endsection
 
 @section('content')
+<div class="content mt-3">
 
+    <div class="animated fadeIn">
+        Isi home
+    </div>
+
+</div>
+</div>    
 @endsection

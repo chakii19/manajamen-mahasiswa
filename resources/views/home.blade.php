@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title','Dasboard')
+@section('title')
 
 @section('breadcrumbs')
 <div class="breadcrumbs">
